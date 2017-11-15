@@ -1,13 +1,34 @@
 /**
- * Measure:  measure distances between 2 or more tokens
- * By:       The Aaron, Arcane Scriptomancer
- * Github:   https://github.com/shdwjk/Roll20API/blob/master/Measure/Measure.js
- * Contact:  https://app.roll20.net/users/104025/the-aaron
- * 
  * Measure-gurps modification: gurpsGetRangeModifier() converts to hexes and determines to hit modifier
  * Modified by:                Ken Foubert
  * Contact:                    https://app.roll20.net/users/945642/ken-f
  * Modified date:              11/12/2017
+ * 
+ * How To Install: 
+ * You must have a Pro subscription
+ * Go to your games landing page, click on Settings then click on API Scripts
+ * Click on the New Script Tab
+ * Set Name: measure.js
+ * Copy/paste all the code in this file to the webpage
+ * Press "Save Script"
+ * You should get a success message and the script is ready to use
+ * 
+ * How to Use:
+ * Start your game
+ * Select 2 or more tokens, for this script suggest just 2 tokens
+ * Go to the chat box
+ * Type: !measure
+ * Result will look like: Measure:
+ *                           Measurements:
+ *                          Thug to Jewel: 4 hex (-2 to hit) 
+ * 
+ * Whisper to player type: !wmeasure [player or character name]
+ *  
+ * BASED ON The Aaron's Measure script 
+ * Measure:  measure distances between 2 or more tokens
+ * By:       The Aaron, Arcane Scriptomancer
+ * Github:   https://github.com/shdwjk/Roll20API/blob/master/Measure/Measure.js
+ * Contact:  https://app.roll20.net/users/104025/the-aaron
  * 
  * measure-gurps.js is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. 
  * All rights are reserved by Steve Jackson Games. This game aid is the original creation of Ken Foubert and is released 
